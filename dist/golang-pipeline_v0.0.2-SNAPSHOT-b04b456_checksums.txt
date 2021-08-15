@@ -1,0 +1,5 @@
+13fe44994d8f59a38d28b9f8265585f2ffd32d07376ecba03a15fe1e48e51345  golang-pipeline_v0.0.2-SNAPSHOT-b04b456_linux_arm64.tar.gz
+162c25c0b9591dff54d2e4f10350af1be8b17115044e332d33c1db6b7a9f1232  golang-pipeline_v0.0.2-SNAPSHOT-b04b456_darwin_arm64.tar.gz
+59c76b5283d523890c0f1cd10aac84d3b5f3236fd6e65d1ccf6d1a1d17604b7e  golang-pipeline_v0.0.2-SNAPSHOT-b04b456_windows_amd64.tar.gz
+b342fe6e0fe9ed43b7dce5e7da1b25a18a8ae8e74bae8ffdaf3b7622e9546f9b  golang-pipeline_v0.0.2-SNAPSHOT-b04b456_darwin_amd64.tar.gz
+ce7b989d52f6579d68f19163ea71dd6ee38513312dec38e86b5f4026e83cadc8  golang-pipeline_v0.0.2-SNAPSHOT-b04b456_linux_amd64.tar.gz

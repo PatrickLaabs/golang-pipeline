@@ -1,5 +1,8 @@
 name: golang-pipeline
-on: push
+on:
+  push:
+    branches:
+      - none
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -21,7 +24,7 @@ jobs:
     steps:
       - name: Check Out Repo 
         uses: actions/checkout@v2
-        
+
       - name: Extract Version
         id: version_step
         run: |
