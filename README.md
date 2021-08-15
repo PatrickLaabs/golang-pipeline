@@ -1,1 +1,1 @@
-Golang Pipeline via Github Actions
+Golang Pipeline via Github Actions via SSH
