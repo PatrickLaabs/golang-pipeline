@@ -1,14 +1,12 @@
-FROM golang:1.16-alpine
+FROM golang:1.16.4-buster AS builder
 
-WORKDIR /app
+ARG VERSION=dev
 
-COPY go.mod ./
-RUN go mod download
+WORKDIR /go/src/app
+COPY main.go .
+RUN go build -o main -ldflags=-X=main.version=${VERSION} main.go 
 
-COPY *.go ./
-
-RUN go build -o /golang-pipeline
-
-EXPOSE 8080
-
-CMD [ "/golang-pipeline" ]
+FROM debian:buster-slim
+COPY --from=builder /go/src/app/main /go/bin/main
+ENV PATH="/go/bin:${PATH}"
+CMD ["main"]
