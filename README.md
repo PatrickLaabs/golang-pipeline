@@ -1,7 +1,7 @@
 # Pipeline on Github Actions for Golang
 
 This shall be my template for future projects.
-An easy made pipeline on gh actions mostly powered by goreleaser :love:
+An easy made pipeline on gh actions mostly powered by goreleaser :heart:
 
 Just get some code inside this root dir, modify the Dockerfile tidy up 
 that mod file of go and double check the workflows for correct paths.
