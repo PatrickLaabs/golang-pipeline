@@ -3,10 +3,13 @@
 This shall be my template for future projects.
 An easy made pipeline on gh actions mostly powered by goreleaser :heart:
 
-Just get some code inside this root dir, modify the Dockerfile tidy up 
-that mod file of go and double check the workflows for correct paths.
-Last but not least only a personal access token from gh need to be set up - env found inside the 
-goreleaser.yml workflow file.
+Steps to get running:
+
+- copy .goreleaser.yml file
+- copy Dockerfile
+- copy .github/workflows/goreleaser.yml
+- Check if everything fits your needs
+- Set GH_PAT on your repo (can be created in gh under developer settings)
 
 push the code into scm with a tag on it and let the magic happen :) 
 
